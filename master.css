@@ -1,17 +1,25 @@
 body, html {
   height: 100%;
-  overflow: hidden;
 }
 
 .bg {
-  /* The image used */
   background-image: url("assets/background.jpg");
 
-  /* Half height */
   height: 100%;
+  padding-top: 68px;
 
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron {
+  opacity: 0.9;
+  max-width: 500px;
 }
