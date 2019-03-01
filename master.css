@@ -2,16 +2,37 @@ body, html {
   height: 100%;
 }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .bg {
   background-image: url("assets/background.jpg");
-
   height: 100%;
   padding-top: 68px;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.map {
+  margin: auto;
 }
 
 .bottom {
