@@ -38,7 +38,14 @@ body, html {
 .bottom {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
+
+.rounded {
+  border-radius: 10px;
+}
+
+
 
 .jumbotron {
   opacity: 0.9;
