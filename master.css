@@ -36,6 +36,9 @@ body, html {
 }
 
 .bottom {
+  font-size: 20px;
+  background: none;
+  border-style: none;
   position: absolute;
   bottom: 0;
   width: 100%;
