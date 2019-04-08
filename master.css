@@ -6,6 +6,10 @@ body {
   padding-top: 56px;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Courgette', cursive;
+}
+
 .google-maps {
   position: relative;
   padding-bottom: 75%;
