@@ -6,7 +6,7 @@ body {
   padding-top: 56px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, a {
   font-family: 'Courgette', cursive;
 }
 
@@ -39,8 +39,19 @@ h1, h2, h3, h4 {
   background-attachment: fixed;
 }
 
-.map {
-  margin: auto;
+.googlemap {
+        position: relative;
+        padding-bottom: 75%; /* 4:3 ratio*/
+        height: 0;
+        overflow: hidden;
+}
+
+.googlemap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .bottom {
@@ -50,6 +61,10 @@ h1, h2, h3, h4 {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+a {
+
 }
 
 .rounded {
